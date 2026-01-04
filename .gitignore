@@ -1,7 +1,25 @@
+# virtual environment
 venv/
+
+# python cache
 __pycache__/
 *.pyc
+
+# build artifacts
 build/
 dist/
 *.exe
+*.spec
+
+# environment files
 .env
+
+# runtime data (DO NOT COMMIT)
+attendance*.csv
+attendance*.xlsx
+*.db
+data/
+utils/users.json
+
+# vscode
+.vscode/
